@@ -181,7 +181,7 @@ contract QuantumCoin {
 		numberOfTransactionsInLedger++;
 		/* Mise à jour de la pile des transactions non validées */
 		nextTransactionToBeMined++;
-		/* Récompense du mineur */
+		/* Récompense du mineur (pour le faire proprement, il faudrait créer une nouvvelle transaction...) */
 		users[resolveAddress[msg.sender]].coins += 1;
 	}
 
