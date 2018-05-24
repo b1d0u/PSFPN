@@ -9,4 +9,8 @@ Projet SFPN M1S2
 
 https://github.com/ethereum/mist/releases/tag/v0.10.0
 
-2) Lancez l'application et 
+2) Lancez l'application
+
+3) Pour utiliser le réseau local et pas la blockchain d'Ethereum, connectez-vous au réseau "solo network" :
+
+
