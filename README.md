@@ -13,4 +13,4 @@ https://github.com/ethereum/mist/releases/tag/v0.10.0
 
 3) Pour utiliser le réseau local et pas la blockchain d'Ethereum, connectez-vous au réseau "solo network" :
 
-
+![Alt text](https://github.com/b1d0u/PSFPN/blob/master/imgs/image_readme_1.png)
