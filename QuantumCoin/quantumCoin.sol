@@ -181,6 +181,8 @@ contract QuantumCoin {
 		numberOfTransactionsInLedger++;
 		/* Mise à jour de la pile des transactions non validées */
 		nextTransactionToBeMined++;
+		/* Récompense du mineur */
+		users[resolveAddress[msg.sender]].coins += 1;
 	}
 
 	function checkUserCoins(bytes32 usrAddr) public returns (bool) {
